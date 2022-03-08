@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks\ Yellow.jpg)
+  background: url(images/BeePhoto.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 
@@ -72,20 +72,20 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(45, 171, 230, 0.5); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: double white;
+	border-width: 12px; 
 	text-align: center;
 }
 
 h1 {
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Bebas Neue', cursive;
 
 	font-size: 2em;
     margin: 0px auto 10px auto;
@@ -93,8 +93,9 @@ h1 {
 }
 
 h2 {
-	font-family: oswald, sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 
+	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
@@ -102,18 +103,19 @@ h2 {
 }
 
 p {
-	font-family: source-sans-pro, sans-serif;
+	font-family: 'Barlow', sans-serif;
 
+	font-size: 1.3em;
     line-height: 1.6;
     color: #fff;
 }
     
 nav{
-	font-family: garamond;
-	font-size: 1.2em;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.4em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: solid rgb(64, 192, 224);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -129,12 +131,11 @@ nav a{
 }
 
 a{
-	color:#444;
+	color:rgb(255, 255, 255);
 	text-decoration:none;
-	font-weight:bold;
 }
 
 a:hover{
 	color:black;
-	background: pink;
+	background: rgb(228, 84, 168);
 }
