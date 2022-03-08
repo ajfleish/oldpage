@@ -58,7 +58,7 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  padding: 0;
+  padding-bottom: 150px;
   margin: 0;
   background: url(images/BeePhoto.jpg)
 	center center fixed no-repeat;
@@ -81,6 +81,7 @@ html, body {
     margin-bottom: 16px;
 	border: double white;
 	border-width: 12px; 
+	padding: 15px;
 	text-align: center;
 }
 
@@ -88,7 +89,7 @@ h1 {
 	font-family: 'Bebas Neue', cursive;
 
 	font-size: 2em;
-    margin: 0px auto 10px auto;
+    margin: 0px auto 25px auto;
     color: #fff;
 }
 
@@ -99,7 +100,7 @@ h2 {
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 10px auto;
 }
 
 p {
@@ -115,7 +116,7 @@ nav{
 	font-size: 1.4em;
 	width: 400px;
 	margin: 0 auto;
-	border: solid rgb(64, 192, 224);
+	border: solid rgb(45, 171, 230);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -136,6 +137,6 @@ a{
 }
 
 a:hover{
-	color:black;
+	color:rgb(75, 75, 75);
 	background: rgb(228, 84, 168);
 }
