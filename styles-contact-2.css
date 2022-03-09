@@ -84,7 +84,7 @@ html, body {
 }
 
 h1 {
-	font-family: 'Bebas Neue', serif;
+	font-family: 'Bebas Neue', sans-serif;
 
 	font-size: 2em;
     margin: 0px auto 25px auto;
@@ -102,7 +102,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Bebas Neue', serif;
+	font-family: 'Bebas Neue', sans-serif;
 
 	font-size: 3em;
     margin: 0px auto 25px auto;
