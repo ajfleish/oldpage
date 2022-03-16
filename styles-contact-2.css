@@ -58,7 +58,7 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  padding-bottom: 550px;
+  padding-bottom: 10%;
   margin: 0;
   background: url(images/BeePhoto.jpg)
 	center center fixed no-repeat;
@@ -84,7 +84,7 @@ html, body {
 }
 
 h1 {
-	font-family: 'Bebas Neue', serif;
+	font-family: 'League Gothic', sans-serif;
 
 	font-size: 2em;
     margin: 0px auto 25px auto;
@@ -102,13 +102,11 @@ h2 {
 }
 
 h3 {
-	font-family: 'Bebas Neue', serif;
+	font-family: 'League Gothic', sans-serif;
 
 	font-size: 3em;
     margin: 0px auto 25px auto;
     color: #fff;
-	border: solid rgb(45, 171, 230);
-	border-width: 3px 0;
 	text-align: center;
 	margin-top: .5em;
 }
@@ -122,7 +120,7 @@ p {
 }
     
 nav{
-	font-family: 'Bebas Neue', serif;
+	font-family: 'League Gothic', sans-serif;
 	font-size: 1.4em;
 	width: 400px;
 	margin: 0 auto;
